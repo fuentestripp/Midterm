@@ -64,6 +64,8 @@ div {
   justify-content: center;
   align-content: center;
   text-align: center;
+  font-family: 'Baloo Chettan 2';
+
 }
 
 #Pics img {
@@ -79,6 +81,9 @@ div {
   text-align: center;
   padding-left: 0px;
   padding-bottom: 128px;
+  font-family: 'Odibee Sans';
+
+
 }
 
 #arguments p, #arguments2 p, #arguments3 p, #arguments4 p {
@@ -88,6 +93,8 @@ div {
   width: auto;
   text-align: center;
   padding-left: 10px;
+  font-family: 'Baloo Chettan 2';
+
 }
 
 #mainContainer2 {

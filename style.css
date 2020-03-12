@@ -1,0 +1,108 @@
+body {
+  font-family:sans-serif;
+  background-color: #C8CFD7;
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: 'Baloo Chettan 2';
+  font-family: 'Odibee Sans';
+  src: url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2|Odibee+Sans&display=swap');
+}
+
+div {
+  font-family: 'Obidee Sans';
+}
+#navbar {
+  width: 100%;
+  background-color: #5B7EAA;
+  justify-content: center;
+  align-content: center;
+}
+
+
+#navbar ul {
+  display: flex;
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+#navbar li {
+  color: #DAA520;
+
+}
+#navbar li a{
+  text-align: center;
+  display: block;
+  color: #fff;
+  font-family: 'Odibee Sans';
+  padding: 3vh 10vh;
+  font-size: 20pt;
+}
+
+#topbannerlogo{
+  display: flex;
+  background-color: #5B7EAA;
+  justify-content: center;
+  align-items: center;
+}
+
+#topbannerlogo img {
+  padding-top: 7vh;
+  padding-bottom: 0;
+  width: 25vw;
+
+}
+
+#Pics {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+#Pics img {
+  justify-content: center;
+
+}
+
+#arguments h1, #arguments2 h1, #arguments3 h1, #arguments4 h1,  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75;
+  text-align: center;
+  padding-left: 0px;
+  padding-bottom: 128px;
+}
+
+#arguments p, #arguments2 p, #arguments3 p, #arguments4 p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  padding-left: 10px;
+}
+
+#mainContainer2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  text-align: center;
+}
+
+#arguments {
+}
+
+#secret {
+  font-family: 'Odibee Sans';
+  font-size: 7pt;
+}
